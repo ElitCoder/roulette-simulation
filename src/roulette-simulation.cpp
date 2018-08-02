@@ -1,5 +1,14 @@
+#include "Board.h"
+
 #include <iostream>
 
+using namespace std;
+
 int main() {
+	Board board;
+	board.setup();
+	
+	cout << board.run() << endl;
+	
 	return 0;
 }
